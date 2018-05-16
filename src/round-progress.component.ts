@@ -64,6 +64,7 @@ export class RoundProgressComponent implements OnChanges {
     diameter;
     resColor;
     pathTransform;
+    public innerHTML;
 
     constructor(private _service: RoundProgressService, private _easing: RoundProgressEase, private _defaults: RoundProgressConfig,
         private _ngZone: NgZone, private _renderer: Renderer, public sanitizer: DomSanitizer) {}
