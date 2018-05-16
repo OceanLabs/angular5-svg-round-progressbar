@@ -17,6 +17,7 @@ export declare class RoundProgressComponent implements OnChanges {
     diameter: any;
     resColor: any;
     pathTransform: any;
+    innerHTML: any;
     constructor(_service: RoundProgressService, _easing: RoundProgressEase, _defaults: RoundProgressConfig, _ngZone: NgZone, _renderer: Renderer, sanitizer: DomSanitizer);
     /** Animates a change in the current value. */
     private _animateChange(from, to);
